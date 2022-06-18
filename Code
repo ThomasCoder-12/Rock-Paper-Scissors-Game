@@ -1,0 +1,20 @@
+import random
+
+print("A simple rock, paper, scissors game using PYTHON")
+print("")
+
+sign = ("ROCK", "PAPER", "SCISSORS")
+generate = random.choice(sign)
+correct = generate
+
+sign1 = ("ROCK", "PAPER", "SCISSORS")
+generate1 = random.choice(sign1)
+correct = generate1
+
+print("You:")
+print(generate1)
+
+print("")
+
+print("Device:")
+print(generate)
